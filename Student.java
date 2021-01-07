@@ -16,7 +16,18 @@ public Student(double studentHeight, double studentWeight, String studentName, i
   goodWeather = Weather;
 }
 //method
+
 public void rollerCoaster()
+ {
+  if(height < 4.6 && weight < 300.0 && age > 5 && goodWeather)
+  {
+    System.out.println("yay! you get to ride the roller coaster" + name);
+  }else{
+    System.out.println("sorry, maybe next year" + name);
+  }
+ }
+
+public void rollerCoaster2()
  {
   if(height < 4.6 && weight < 300.0 && age > 5 && goodWeather)
   {

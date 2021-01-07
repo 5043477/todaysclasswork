@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    Student obj1 = new Student(4.1, 260.0, "henry", 6, true);
-    Student obj2 = new Student(8.7, 16.0, "clarence", 2, true);
+    Student obj1 = new Student(4.1, 260.0, " henry", 6, true);
+    Student obj2 = new Student(8.7, 16.0, " clarence", 2, true);
 obj1.rollerCoaster();
 obj2.rollerCoaster();
 
